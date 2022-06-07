@@ -1,0 +1,4 @@
+### HOME REST CLIENT TESTING 
+
+### GET HOME HOME API SERVICE 
+GET http://localhost:8089/smoothfilling/api/

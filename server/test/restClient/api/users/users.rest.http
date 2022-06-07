@@ -1,0 +1,16 @@
+### USER REST CLIENT TESTING 
+
+### GET USER INFO API SERVICE
+GET http://localhost:8089/smoothfilling/api/users/info
+
+### POST USER SIGNUP API SERVICE 
+POST http://localhost:8089/smoothfilling/api/users/signup
+Content-Type: application/json
+
+{
+    "username": "alex",
+    "email": "alexyendes@gmail.com",
+    "firstname": "Alex",
+    "lastname": "Yendes Figueroa",
+    "password": "alex"
+}

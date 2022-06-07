@@ -1,0 +1,55 @@
+import { Document, ObjectId } from "mongoose"; 
+
+interface iFLCorpotationPrincipal {
+    PRINC_TITLE: String;
+    PRINC_NAME_TYPE: String;
+    PRINC_NAME: String;
+    PRINC_ADD_1: String;
+    PRINC_CITY: String;
+    PRINC_STATE: String;
+    PRINC_ZIP5: String;
+    PRINC_ZIP4: String;
+};
+
+export interface iFLCorporation {
+    id: ObjectId;
+    COR_NUMBER: string;
+    COR_NAME: string;
+    COR_STATUS: String;
+    COR_FILING_TYPE: String;
+    COR_PRINC_ADD_1: String;
+    COR_PRINC_ADD_2: String;
+    COR_PRINC_CITY: String;
+    COR_PRINC_STATE: String;
+    BCOR_PRINC_ZIP: String;
+    COR_PRINC_COUNTRY: String;
+    COR_MAIL_ADD_1: String;
+    COR_MAIL_ADD_2: String;
+    COR_MAIL_CITY: String;
+    COR_MAIL_STATE: String;
+    COR_MAIL_ZIP: String;
+    COR_MAIL_COUNTRY: String;
+    COR_FILE_DATE: String;
+    COR_FEI_NUMBER: String;
+    MORE_THAN_SIX_OFF_FLAG: String;
+    LAST_TRX_DATE: String;
+    STATE_COUNTRY: String;
+    REPORT_YEAR_1: String;
+    HOUSE_FLAG_1: String;
+    REPORT_DATE_1: String;
+    REPORT_YEAR_2: String;
+    HOUSE_FLAG_2: String;
+    REPORT_DATE_2: String;
+    REPORT_YEAR_3: String;
+    HOUSE_FLAG_3: String;
+    REPORT_DATE_3: String;
+    RA_NAME: String;
+    RA_NAME_TYPE: String;
+    RA_ADD_1: String;
+    RA_CITY: String;
+    RA_STATE: String;
+    RA_ZIP5: String;
+    RA_ZIP4: String;
+    PRINCIPALS: iFLCorpotationPrincipal[];
+    FILLER: String;
+};

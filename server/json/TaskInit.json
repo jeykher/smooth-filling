@@ -1,0 +1,16 @@
+[
+    {
+		"id": 1,
+		"name": "corporation",
+		"description": "FLCorporation",
+		"host": "ftp.dos.state.fl.us",
+		"path": "public/doc/cor/",
+		"format": "[0-9]+[a-z].(?:txt|txt)",
+		"status": 1,
+		"lastDate": "2020-10-28T17:10:03.637Z",
+		"scheme": "json/FLCorporation.json",
+		"collectionName": "company",
+		"collectionKey":"COR_NUMBER",
+		"templateId":"FL_{COR_NUMBER}"
+	}	
+]

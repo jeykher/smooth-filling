@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+*, :before, :after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+
+.full-container {
+    width: 100%;
+}
+
+.grid-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid green;
+}
+
+@media (min-width: 576px) {
+    .grid-container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .grid-container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .grid-container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .grid-container {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .grid-container {
+        max-width: 1320px;
+    }
+}

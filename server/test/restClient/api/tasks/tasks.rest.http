@@ -1,0 +1,7 @@
+### TASKS REST CLIENT TESTING 
+
+### GET TASKS INFO API SERVICE
+GET http://localhost:8089/smoothfilling/api/processes/tasks/info
+
+### GET PROCESS TASKS IMPORT FTP DATA SERVICE 
+GET http://localhost:8089/smoothfilling/api/processes/tasks/import-ftp-data
